@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<RootElement>
+    <Configuration>
+        <!-- URL to the MDT monitor webservice -->
+		<URL>http://changeme:9801/MDTMonitorData/Computers</URL>
+        <!-- Name of the server that the MDT monitor webservice is installed on. The user will need to be admin on this machine and Powershell remoting must be configured -->
+		<Server>changeme</Server>
+        <!-- Path to DartRemoteViewer.exe, either change to where it is installed or copy file to same dir as this program -->
+		<!-- default location is: C:\Program Files\Microsoft DaRT\v8.1 -->
+		<DartToolPath>.</DartToolPath>
+		<!-- Set to "True" if you want to use client local time for displaying Start/End Time, the default MDT workbench uses UTC time, set to false if you want UTC time instead -->
+		<LocalTime>True</LocalTime>
+    </Configuration>
+</RootElement>
